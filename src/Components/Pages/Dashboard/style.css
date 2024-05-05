@@ -1,0 +1,38 @@
+.items{
+    width: 20rem;
+    height: 10rem;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 0 grey;
+    margin: 3rem 0;
+}
+
+.items p:first-child{
+    color: grey;
+}
+
+.icon-wrapper{
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background-color: #EDF4FE;
+    color: #81B0FD;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.items .icons{
+    font-size: 1.5rem;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.itemsData p:last-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.items .percentage{
+    font-weight: 700;
+}
